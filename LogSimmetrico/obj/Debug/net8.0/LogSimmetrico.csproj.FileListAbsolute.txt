@@ -1,0 +1,14 @@
+C:\Users\fiumicelli\source\repos\LogSimmetrico\LogSimmetrico\bin\Debug\net8.0\LogSimmetrico.exe
+C:\Users\fiumicelli\source\repos\LogSimmetrico\LogSimmetrico\bin\Debug\net8.0\LogSimmetrico.deps.json
+C:\Users\fiumicelli\source\repos\LogSimmetrico\LogSimmetrico\bin\Debug\net8.0\LogSimmetrico.runtimeconfig.json
+C:\Users\fiumicelli\source\repos\LogSimmetrico\LogSimmetrico\bin\Debug\net8.0\LogSimmetrico.dll
+C:\Users\fiumicelli\source\repos\LogSimmetrico\LogSimmetrico\bin\Debug\net8.0\LogSimmetrico.pdb
+C:\Users\fiumicelli\source\repos\LogSimmetrico\LogSimmetrico\obj\Debug\net8.0\LogSimmetrico.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\fiumicelli\source\repos\LogSimmetrico\LogSimmetrico\obj\Debug\net8.0\LogSimmetrico.AssemblyInfoInputs.cache
+C:\Users\fiumicelli\source\repos\LogSimmetrico\LogSimmetrico\obj\Debug\net8.0\LogSimmetrico.AssemblyInfo.cs
+C:\Users\fiumicelli\source\repos\LogSimmetrico\LogSimmetrico\obj\Debug\net8.0\LogSimmetrico.csproj.CoreCompileInputs.cache
+C:\Users\fiumicelli\source\repos\LogSimmetrico\LogSimmetrico\obj\Debug\net8.0\LogSimmetrico.dll
+C:\Users\fiumicelli\source\repos\LogSimmetrico\LogSimmetrico\obj\Debug\net8.0\refint\LogSimmetrico.dll
+C:\Users\fiumicelli\source\repos\LogSimmetrico\LogSimmetrico\obj\Debug\net8.0\LogSimmetrico.pdb
+C:\Users\fiumicelli\source\repos\LogSimmetrico\LogSimmetrico\obj\Debug\net8.0\LogSimmetrico.genruntimeconfig.cache
+C:\Users\fiumicelli\source\repos\LogSimmetrico\LogSimmetrico\obj\Debug\net8.0\ref\LogSimmetrico.dll
