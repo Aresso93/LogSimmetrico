@@ -18,11 +18,18 @@
             Console.WriteLine("Dammi le strnghe, pls");
             string input = Console.ReadLine()!;
             string[] strArray = input.Split(' ');
-            //int longestLength = strArray.Max(str => str.Length);
+            string leftBracket = "[";
+            string rightBracket = "]";
+            //string blankSpace = " ";
+            int longestLength = strArray.Max(str => str.Length);
+            int lengthPlusBrackets = longestLength + 2;
             //Console.WriteLine(longestLength);
             for (int i = 0; i<strArray.Length; i++) {
-                Console.WriteLine(strArray[i]);
+                string spaces = new String(' ', (lengthPlusBrackets - strArray[i].Length) /2);
+                Console.WriteLine(leftBracket + spaces + strArray[i] + spaces + rightBracket);
+                
             }
+            
             return strArray;
         }
     }

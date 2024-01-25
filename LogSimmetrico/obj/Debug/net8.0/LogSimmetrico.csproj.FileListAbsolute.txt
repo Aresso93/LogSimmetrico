@@ -12,3 +12,4 @@ C:\Users\fiumicelli\source\repos\LogSimmetrico\LogSimmetrico\obj\Debug\net8.0\re
 C:\Users\fiumicelli\source\repos\LogSimmetrico\LogSimmetrico\obj\Debug\net8.0\LogSimmetrico.pdb
 C:\Users\fiumicelli\source\repos\LogSimmetrico\LogSimmetrico\obj\Debug\net8.0\LogSimmetrico.genruntimeconfig.cache
 C:\Users\fiumicelli\source\repos\LogSimmetrico\LogSimmetrico\obj\Debug\net8.0\ref\LogSimmetrico.dll
+C:\Users\fiumicelli\source\repos\LogSimmetrico\LogSimmetrico\obj\Debug\net8.0\LogSimmetrico.sourcelink.json
