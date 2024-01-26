@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("LogSimmetrico")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+58c62b41c401539d087d5b5584ec83fbef65d42c")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+034e5bcaf8012ab6f1a1a20ae9b60bbfe19266d0")]
 [assembly: System.Reflection.AssemblyProductAttribute("LogSimmetrico")]
 [assembly: System.Reflection.AssemblyTitleAttribute("LogSimmetrico")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

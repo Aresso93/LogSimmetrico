@@ -15,19 +15,24 @@
 
         static string[] StringManipulation()
         {
-            Console.WriteLine("Dammi le strnghe, pls");
+            Console.WriteLine("Dammi le stringhe, pls");
             string input = Console.ReadLine()!;
             string[] strArray = input.Split(' ');
             string leftBracket = "[";
             string rightBracket = "]";
-            //string blankSpace = " ";
+            string blankSpace = " ";
             int longestLength = strArray.Max(str => str.Length);
             int lengthPlusBrackets = longestLength + 2;
-            //Console.WriteLine(longestLength);
             for (int i = 0; i<strArray.Length; i++) {
                 string spaces = new String(' ', (lengthPlusBrackets - strArray[i].Length) /2);
-                Console.WriteLine(leftBracket + spaces + strArray[i] + spaces + rightBracket);
-                
+                if (strArray[i].Length % 2 != 0)
+                {
+                    Console.WriteLine(leftBracket + spaces + blankSpace + strArray[i] + spaces + rightBracket);
+                } else
+                {
+
+                    Console.WriteLine(leftBracket + spaces + strArray[i] + spaces + rightBracket);
+                }
             }
             
             return strArray;
