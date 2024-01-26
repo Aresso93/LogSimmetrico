@@ -4,11 +4,6 @@
     {
         static void Main(string[] args)
         {
-           
-            //StringManipulation("Hitler", 12);
-            //StringManipulation("Aristotelico");
-            //StringManipulation("mamma");
-            //GetMaxLength(logWords);
             AddSpacesToLog();
         }
 
@@ -30,7 +25,6 @@
             int maxLength = strArray[0].Length;
             return maxLength;
         }
-
         private static string StringManipulation(string stringToEnlarge, int numberOfBlankSpaces)
         {
             string blankSpace = " ";
@@ -42,19 +36,18 @@
             stringToEnlarge = spaces + stringToEnlarge + spaces;
             //Console.WriteLine(stringToEnlarge);
             return stringToEnlarge;
-        }
-       
+        }    
         private static void AddSpacesToLog()
         {
             Console.WriteLine("Dammi le stringhe, pls");
             string input = Console.ReadLine()!;
-            string[] strArray = input.Split(' ');
+            string trimmedInput = input.Replace(" ", "");
+            string[] strArray = trimmedInput.Split(" ");
             string leftBracket = "[";
             string rightBracket = "]";
             string blankSpace = " ";
             int longestLength = GetMaxLength(input);
-            int lengthPlusBrackets = longestLength + 2;
-           
+            int lengthPlusBrackets = longestLength + 2;          
             for (int i = 0; i < strArray.Length; i++)
             {   
                 if (strArray[i].Length % 2 != 0) { 
@@ -65,10 +58,8 @@
                     Console.WriteLine(leftBracket + blankSpace + StringManipulation(strArray[i], lengthPlusBrackets) + rightBracket);
                 }
             }
-
         }
     }
-
 }
 
 
